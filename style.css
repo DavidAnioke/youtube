@@ -1,0 +1,269 @@
+*{
+    background-color: rgb(23, 65, 103);
+    margin: 0%;
+    color: white;
+    list-style-type: none;
+}
+
+
+body, html {
+    height: 100%;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.creon{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    margin-left: 300px;
+    margin-top: 10px;
+    display: flex;
+   justify-content: space-between;
+   padding-left: 150px;
+   max-width: 100%;
+   text-decoration: none;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; 
+}
+
+.wallet{
+    border-radius: 15%;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.create{
+    font-size: 10vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.sell{
+    font-size: 10vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.start{
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 15px; 
+    background-color: darkseagreen;
+    border-radius: 15rem;
+    font-size: 20px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 30px;
+    color: black;
+}
+
+.flower{
+  float: right;
+  margin-right: 60px;
+}
+
+/* .foot{
+    border: solid black;
+} */
+
+/* .digital{
+    justify-content: center;
+    border-radius: 1.5rem;
+    border: solid white;
+    margin-top: 190px;
+    margin-bottom:8px;
+    margin-left: 120px;
+    margin-right: 000px;
+    padding: 5px;
+    width: 120px;
+    max-width: 100%;
+    height: 30px;
+}
+
+.videos{
+    border-radius: 1.5rem;
+    width: 70px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: solid white;
+    padding: 5px;
+    margin-left: 50px;
+    float: right;
+    margin-bottom: 8px;
+    
+}
+
+.photography{
+    border-radius:1.65rem;
+    box-sizing: border-box;
+    border: solid white;
+    padding: 5px;
+    margin-right: 1000px;
+    margin-left: 7px;
+    float: right;
+    width: 100px;
+    display: inline-block;
+}
+
+.utility{
+    border-radius: 1.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-left: 120px;
+    box-sizing: border-box;
+    border: solid white;
+    padding: 5px;
+    width: 80px;
+    display: inline-block;
+}
+
+.more{
+    list-style-type: none;
+    border-radius: 1.5rem;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: solid white;
+    padding: 5px;
+    width: 90px;
+    display: inline-block;
+}  */
+/* 
+.grid{
+    display: grid;
+    gap: 0.2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 95%;
+    padding: 20px;
+}
+
+.info{ 
+    background-color:rgb(219, 255, 183);
+    color: black;
+    padding: 30px;
+    width: 350px;
+    margin-left: 400px;
+    height: 10vh;
+}
+
+.web3{
+    background-color: rgb(0, 82, 100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin-left: 800px;
+    height: 10vh;
+    padding: 30px;
+    color: black;
+}
+
+.rewards{
+    background-color: darkcyan;
+    color: white;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: auto;
+    padding: 30px;
+} */
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-left: 100px;
+    border-bottom: 100px;
+    height: 40vh;
+    padding-top: 120px;
+    padding-left: 120px;
+    width: 1400px;
+    max-width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.digital{
+    border-radius: 1.5rem;
+    border: solid white;
+    width: 200px;
+    max-width: 100%;
+    height: 30px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+.videos{
+    border-radius: 1.5rem;
+    width: 70px;
+    box-sizing: border-box;
+    border: solid white;
+    padding: 5px;
+}
+
+
+.photography{
+    border-radius:1.65rem;
+    box-sizing: border-box;
+    border: solid white;
+    padding: 5px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 180px;
+    margin-bottom: 10px;
+}
+
+.utility{
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    border: solid white;
+    padding: 5px;
+    width: 80px;
+    display: inline-block;
+}
+
+.more{
+    list-style-type: none;
+    border-radius: 1.5rem;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: solid white;
+    padding: 5px;
+    width: 90px;
+    display: inline-block;
+}
+
+.info{
+    border: solid black;
+    background-color: hwb(121 49% 7%);
+    height: 40vh;
+    width: 400px;
+    padding: 15px;
+}
+
+.web3{
+    background-color: rgb(185, 244, 252);
+    width: 400px;
+    height: 40vh;
+    padding: 15px;
+}
